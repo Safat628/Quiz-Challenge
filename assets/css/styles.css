@@ -1,0 +1,83 @@
+body {
+    font-family: Arial;
+    font-size: 120%;
+    background-color:white;
+  }
+
+button {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: #6f08d7;
+    border-radius: 5px;
+    padding: 15px;
+    border: 0;
+    transition: background-color 0.1s;
+}
+
+button:hover {
+    background-color: #da2727;
+}
+
+.choices button {
+    display: block;
+}
+
+input[type="text"] {
+    font-size: 100%;
+}
+
+ol {
+    padding-left: 0px;
+    max-height: 400px;
+    overflow: auto;
+}
+  
+  li {
+    padding: 5px;
+    list-style: decimal inside none;
+}
+  
+  li:nth-child(odd) {
+    background-color: #6f08d7;
+}
+li:nth-child(even) {
+    background-color: #da2727;
+}
+
+.wrapper {
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+}
+
+.hide {
+    display: none;
+}
+
+.start {
+    text-align: center;
+  }
+
+.scores {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+.feedback {
+    font-style: italic;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 15px;
+    color: rgb(128, 128, 128);
+    border-top: 2px solid #ccc;
+}
+
+.timer {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+
